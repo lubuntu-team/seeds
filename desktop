@@ -147,4 +147,8 @@ Task-Key: lubuntu-desktop
 
 = Other =
  * lubuntu-desktop                  # metapackage for everything here
+ * xserver-xorg-lts-utopic
+ * libegl1-mesa-drivers-lts-utopic
+ * xserver-xorg-video-all-lts-utopic
+ * xserver-xorg-video-geode-lts-utopic [i386]
 
