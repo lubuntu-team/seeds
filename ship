@@ -1,6 +1,6 @@
 == Kernel ==
 
- * linux [amd64] # not i386 because top-level 'linux' is -generic-pae now
+ * linux-generic-lts-utopic
 
 == Server ==
 
