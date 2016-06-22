@@ -31,3 +31,5 @@ Task-Seeds: desktop-common
 
  * xserver-xorg-video-all           # Depend on the driver-all packages, xorg doesn't provide them
  * xserver-xorg-input-all           # and desktop-common seed only recommend them. LP: #1441843
+ * xserver-xorg-video-intel         # Not installed by default, better for old Intel cards
+
