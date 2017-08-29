@@ -42,6 +42,9 @@ Task-Key: lubuntu-desktop
 # * pidgin-microblog Mostly broken LP: #1190406
  * transmission
 
+== Sound ==
+
+ * pulseaudio                       # LP: #1710993 - Firefox regressed :(
 
 == Multimedia ==
 
