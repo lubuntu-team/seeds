@@ -1,4 +1,4 @@
-include platform.artful
+include platform.bionic
 feature no-follow-recommends
 core: core-share
 core-gtk: core-share
