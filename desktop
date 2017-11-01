@@ -45,6 +45,7 @@ Task-Key: lubuntu-desktop
 == Sound ==
 
  * pulseaudio                       # LP: #1710993 - Firefox regressed :(
+ * pavucontrol                      # Pull this in along with the above package
 
 == Multimedia ==
 
