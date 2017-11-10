@@ -93,8 +93,7 @@ Task-Seeds: core-share
  * whoopsie                         # LP: 1001630
  * kerneloops-daemon                # watch for and allow reporting of kernel problems
 
- * fonts-noto-cjk                   # Extra font to display asian characters
- * fonts-nanum                      # LP: #1437875
+ * fonts-noto-cjk                   # Extra font to display asian characters LP: #1437875
 
  * pcmciautils                      # PCMCIA support for >= 2.6.13-rc1 kernels
  * inputattach                      # needed for serial mice
