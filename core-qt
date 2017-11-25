@@ -9,12 +9,10 @@ Task-Seeds: core-share
 
  * Feature: no-follow-recommends
 
-= LXDE core packages =
+= LXQt core packages =
 
  * pcmanfm-qt
- * lxqt-panel
- * lxqt-common
- * lxqt-session
+ * lxqt-core
  * qterminal
 
  * libqt5svg5                       # Force svg support for Qt

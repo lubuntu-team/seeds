@@ -20,17 +20,7 @@ Task-Seeds: desktop-share core-qt
 
 = LXQt =
 
- * lxqt-about
- * lxqt-admin
- * lxqt-config
- * lxqt-globalkeys
- * lxqt-notificationd
- * lxqt-openssh-askpass
- * lxqt-policykit
- * lxqt-powermanagement
- * lxqt-runner
- * lxqt-qtplugin
- * lxqt-sudo
+ * lxqt
  * qps
 
 == Internet ==
@@ -46,7 +36,6 @@ Task-Seeds: desktop-share core-qt
  * smplayer-themes
  * smtube
  * calibre
- * pavucontrol-qt
 
 == Accessories ==
 
