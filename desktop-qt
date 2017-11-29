@@ -7,8 +7,6 @@ Task-Name: lubuntu-qt-desktop
 Task-Metapackage: lubuntu-qt-desktop
 Task-Seeds: desktop-share core-qt
 
- * Feature: no-follow-recommends
-
 == Default seeds ==
 
  * lubuntu-qt-core

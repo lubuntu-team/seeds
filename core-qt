@@ -7,8 +7,6 @@ Task-Name: lubuntu-qt-core
 Task-Metapackage: lubuntu-qt-core
 Task-Seeds: core-share
 
- * Feature: no-follow-recommends
-
 = LXQt core packages =
 
  * pcmanfm-qt
