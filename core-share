@@ -19,7 +19,7 @@ Task-Name: core-share
  * lubuntu-icon-theme
  * plymouth-theme-lubuntu-logo
  * plymouth-theme-lubuntu-text
- 
+
 = Other needed packages =
 
  * dbus-x11
