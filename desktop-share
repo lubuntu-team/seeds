@@ -9,7 +9,7 @@ Task-Seeds: core-share
  * Feature: no-follow-recommends
 
 == Default seeds ==
- 
+
  * lubuntu-core
 
 == LXDE / LXQt common components ==
@@ -88,7 +88,7 @@ Task-Seeds: core-share
  * update-notifier                  # For crash report and updates notifications
  * ubuntu-drivers-common            # Make it harder to remove detection support, LP#704597
  * policykit-desktop-privileges     # passwordless disk/CPU speed/time operations for admins
- * libpam-systemd                   # logind, cross desktop compatibility 
+ * libpam-systemd                   # logind, cross desktop compatibility
  * x11-utils
  * whoopsie                         # LP: 1001630
  * kerneloops-daemon                # watch for and allow reporting of kernel problems
@@ -103,10 +103,8 @@ Task-Seeds: core-share
  * fwupdate                         # Firmware updating support
  * fwupdate-signed
 
- * snapd                            # snap packages support
-
  * fcitx
- 
+
  * xkb-data
 
  * memtest86+

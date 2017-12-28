@@ -11,11 +11,16 @@ apt-xapian-index
 # Bring part of gnome and unity
 unity-greeter
 
-#Ubuntu has added a suggested package which installs a config file for network manager.
-#This config file enables a feature which checks the connection is actually connected
-#to the internet. It does this by connecting to a website on the internet every five
-#minutes. Due to privacy concerns, Lubuntu is NOT installing this package by default,
-#leaving it to the user to decide if he/she wants this feature.
+# Ubuntu has added a suggested package which installs a config file for network manager.
+# This config file enables a feature which checks the connection is actually connected
+# to the internet. It does this by connecting to a website on the internet every five
+# minutes. Due to privacy concerns, Lubuntu is NOT installing this package by default,
+# leaving it to the user to decide if he/she wants this feature.
 network-manager-config-connectivity
 network-manager-config-connectivity-ubuntu
 network-manager-config-connectivity-debian
+
+# snapd automatically uses a bit of RAM, and Lubuntu doesn't plan on ever installing
+# Snaps by default, so let's not even put it on the ISO, people can install it if they
+# want it...
+snapd
