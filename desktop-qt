@@ -47,7 +47,7 @@ Task-Seeds: desktop-share core-qt
 == Desktopish tools which we do need ==
 
  * xscreensaver
- * gdebi-kde
+# * gdebi-kde                       # Don't include it for now, it's not available at the moment.
  * pinentry-qt                      # LP: #1473952 - Install the Qt version of pinentry, along with gpg-agent.
  * usb-creator-kde                  # Adding utility to make USB bootable
  * compton-conf
