@@ -56,9 +56,6 @@ Task-Seeds: desktop-share core-qt
  * qtpass
  * qttranslations5-l10n             # Needed for proper translations support
 
- * !lightdm
- * !lightdm-gtk-greeter
-
 == Office ==
 
  * libreoffice-calc
