@@ -24,9 +24,10 @@ Task-Seeds: core-share
 == Desktopish tools which we do need ==
 
  * desktop-file-utils               # map MIME types to apps
- * xdg-user-dirs	                # to add the Desktop directory
- * gvfs-fuse 		                # for access of non gio applications to gvfs mounts
- * gvfs-backends 	                # for adding support for backends (photos, network etc ...) to gvfs
+ * xdg-user-dirs	            # to add the Desktop directory
+ * gvfs-fuse 		            # for access of non gio applications to gvfs mounts
+ * gvfs-backends 	            # for adding support for backends (photos, network etc ...) to gvfs
+ * neofetch                         # nice tool to have by default for distro reviewers, doesn't take up any space
 
 == Archive support ==
 
