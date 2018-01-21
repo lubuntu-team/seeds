@@ -1,5 +1,4 @@
 include platform.bionic
-feature no-follow-recommends
 core: core-share
 core-gtk: core-share
 core-qt: core-share

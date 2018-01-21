@@ -7,12 +7,6 @@ Task-Key: ubiquity-frontend
 Task-Test-new-install: skip show
 Task-Seeds: live-common
 
- * Feature: no-follow-recommends
-
-== Bootloader ==
- * grub-pc                  # no-follow-recommends doesn't put grub on the ISO (ubiquity recommends)
-                            # See LP: 1649462
-
 == Languages support ==
 
  * Languages: en

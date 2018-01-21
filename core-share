@@ -5,8 +5,6 @@ Task-Extended-Description: This task provides shared packages for minimal instal
 Task-Key: core-share
 Task-Name: core-share
 
- * Feature: no-follow-recommends
-
 
 = LXDE / LXQt core packages =
 
