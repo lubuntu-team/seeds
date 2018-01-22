@@ -7,6 +7,8 @@ Task-Name: lubuntu-gtk-core
 Task-Metapackage: lubuntu-gtk-core
 Task-Seeds: core-share
 
+ * Feature: no-follow-recommends
+
 = LXDE core packages =
 
  * pcmanfm

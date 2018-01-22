@@ -7,6 +7,8 @@ Task-Key: ubiquity-frontend-gtk
 Task-Test-new-install: skip show
 Task-Seeds: live-share
 
+ * Feature: no-follow-recommends
+
 == Languages support ==
 
  * Languages: en

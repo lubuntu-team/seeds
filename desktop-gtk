@@ -7,6 +7,8 @@ Task-Name: lubuntu-gtk-desktop
 Task-Metapackage: lubuntu-gtk-desktop
 Task-Seeds: desktop-share core-gtk
 
+ * Feature: no-follow-recommends
+
 == Default seeds ==
 
  * lubuntu-gtk-core

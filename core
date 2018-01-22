@@ -7,6 +7,8 @@ Task-Name: lubuntu-core
 Task-Metapackage: lubuntu-core
 Task-Seeds: core-gtk core-share
 
+ * Feature: no-follow-recommends
+
 
 = Meta-package =
  * lubuntu-core

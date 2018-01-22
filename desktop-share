@@ -6,6 +6,8 @@ Task-Key: lubuntu-desktop-share
 Task-Name: lubuntu-desktop-share
 Task-Seeds: core-share
 
+ * Feature: no-follow-recommends
+
 == Default seeds ==
 
  * lubuntu-core
