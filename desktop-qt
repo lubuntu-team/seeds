@@ -21,7 +21,6 @@ Task-Seeds: desktop-share core-qt
 = LXQt =
 
  * lxqt
- * qps
 
 == Internet ==
 
@@ -40,16 +39,17 @@ Task-Seeds: desktop-share core-qt
 == Accessories ==
 
  * 2048-qt
- * juffed
+ * featherpad
  * noblenote
- * xarchiver
+ * ark
  * screengrab
  * nomacs                           # Edit image capability, instead of lximage-qt
+ * kcalc
+ * qps
 
 == Desktopish tools which we do need ==
 
  * xscreensaver
-# * gdebi-kde                       # Don't include it for now, it's not available at the moment.
  * pinentry-qt                      # LP: #1473952 - Install the Qt version of pinentry, along with gpg-agent.
  * usb-creator-kde                  # Adding utility to make USB bootable
  * compton-conf
@@ -65,6 +65,7 @@ Task-Seeds: desktop-share core-qt
  * libreoffice-writer
  * libreoffice-kde
  * qpdfview
+ * skanlite
 
 == Low level system plumbery ==
 
@@ -80,6 +81,8 @@ Task-Seeds: desktop-share core-qt
 
  * network-manager
  * network-manager-gnome            # We need to use this for now until we have a stable Qt network-manager frontend.
+
+ * bluedevil
 
 == Other ==
  * lubuntu-qt-desktop               # metapackage for everything here
