@@ -84,6 +84,11 @@ Task-Seeds: desktop-share core-qt
 
  * bluedevil
 
+== Theming ==
+
+ * papirus-icon-theme
+ * arc-theme
+
 == Other ==
  * lubuntu-qt-desktop               # metapackage for everything here
 
