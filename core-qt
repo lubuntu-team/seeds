@@ -18,6 +18,11 @@ Task-Seeds: core-share
  * libqt5svg5                       # Force svg support for Qt
  * oxygen-icon-theme                # Default LXQt settings need it
 
+= Lubuntu core packages =
+
+ * plymouth-theme-lubuntu-next-logo
+ * plymouth-theme-lubuntu-next-text
+
 = Display manager =
  * sddm
  * sddm-theme-lubuntu-chooser

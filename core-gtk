@@ -16,6 +16,11 @@ Task-Seeds: core-share
  * lxsession
  * lxterminal
 
+= Lubuntu core packages =
+
+ * plymouth-theme-lubuntu-logo
+ * plymouth-theme-lubuntu-text
+
 = Other needed packages =
  * lightdm
  * lightdm-gtk-greeter
