@@ -80,7 +80,7 @@ Task-Seeds: desktop-share core-qt
  * fcitx-ui-qimpanel
 
  * network-manager
- * network-manager-gnome            # We need to use this for now until we have a stable Qt network-manager frontend.
+ * nm-tray                          # Simple, lightweight Qt 5 NM frontend
 
  * bluedevil
 
