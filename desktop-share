@@ -23,8 +23,27 @@ Task-Seeds: core-share
  * xdg-user-dirs	            # to add the Desktop directory
  * gvfs-fuse 		            # for access of non gio applications to gvfs mounts
  * gvfs-backends 	            # for adding support for backends (photos, network etc ...) to gvfs
- * neofetch                         # nice tool to have by default for distro reviewers, doesn't take up any space
- * pastebinit                       # we tell users to use it in the support channels, and it takes up minimal space
+
+== Desktopish tools that are nice to have ==
+
+ * (neofetch)                       # nice tool to have by default for distro reviewers, doesn't take up any space
+ * (pastebinit)                     # we tell users to use it in the support channels, and it takes up minimal space
+ * (htop)                           # superior top replacement that's already in main
+
+== desktop-common recommends that are nice to have ==
+
+ * (fonts-kacst-one)
+ * (fonts-khmeros-core)
+ * (fonts-thai-tlwg)
+ * (fonts-lao)
+ * (ttf-ubuntu-font-family)
+ * (fonts-sil-padauk)
+ * (fonts-tibetan-machine)
+ * (fonts-sil-abyssinica)
+ * (fonts-lklug-sinhala)
+ * (fonts-indic)
+ * (fonts-liberation)
+ * (fonts-noto-cjk)
 
 == Archive support ==
 
@@ -78,6 +97,7 @@ Task-Seeds: core-share
  * wpasupplicant                    # ScottJamesRemnant
  * libnss-mdns                      # IPv4 link-local DNS support
  * ca-certificates                  # common SSL certificates
+ * avahi-daemon
 
 == Low level system plumbery ==
 
@@ -97,6 +117,7 @@ Task-Seeds: core-share
  * inputattach                      # needed for serial mice
  * libsasl2-modules                 # allows integration with MTA and login system
 
+ * fwupd
  * fwupdate                         # Firmware updating support
  * fwupdate-signed
 
