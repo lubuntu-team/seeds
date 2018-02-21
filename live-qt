@@ -9,6 +9,10 @@ Task-Seeds: live-share
 
  * Feature: no-follow-recommends
 
+== Calamares frontend ==
+
+ * calamares-settings-lubuntu
+
 == Languages support ==
 
  * Languages: en

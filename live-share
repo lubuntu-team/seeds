@@ -3,7 +3,6 @@ Task-Section: user
 Task-Description: Lubuntu live CD (shared packages)
 Task-Extended-Description: This task provides the shared and extra packages installed on the Lubuntu live CD. It is neither useful nor recommended to install this task in other environments.
 Task-Relevance: 2
-Task-Key: ubiquity-frontend
 Task-Test-new-install: skip show
 Task-Seeds: live-common
 
@@ -17,12 +16,6 @@ Task-Seeds: live-common
 
  * Languages: en
  * language-pack-${Languages}
-
-== Ubiquity components ==
-
-These packages make up the Ubiquity live installer.
-
- * ubiquity-slideshow-lubuntu
 
 == Lubuntu specifics ==
 
