@@ -121,10 +121,6 @@ Task-Seeds: desktop-share core-gtk
  * fcitx-frontend-gtk2
  * fcitx-ui-classic
 
-== Bug Report ==
-
- * apport-gtk                       # support for ubuntu-bug command
-
 
 == Other ==
  * lubuntu-gtk-desktop              # metapackage for everything here

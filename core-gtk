@@ -21,6 +21,10 @@ Task-Seeds: core-share
  * plymouth-theme-lubuntu-logo
  * plymouth-theme-lubuntu-text
 
+== Bug Reporting ==
+
+ * apport-gtk
+
 = Other needed packages =
  * lightdm
  * lightdm-gtk-greeter
