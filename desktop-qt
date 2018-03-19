@@ -90,6 +90,7 @@ Task-Seeds: desktop-share core-qt
  * arc-theme
 
 == Other ==
+ * (ttf-ancient-fonts-symbola)      # Emoji support
  * lubuntu-qt-desktop               # metapackage for everything here
 
 == Removed ==

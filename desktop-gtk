@@ -123,6 +123,7 @@ Task-Seeds: desktop-share core-gtk
 
 
 == Other ==
+ * (fonts-noto-color-emoji)         # Color emoji support
  * lubuntu-gtk-desktop              # metapackage for everything here
 
 == Removed ==
