@@ -14,12 +14,14 @@ Task-Seeds: live-common
 
 == Languages support ==
 
- * Languages: en
+ # This is the same as what regular Ubuntu ships
+ * Languages: en es zh-hans pt de fr it ru
  * language-pack-${Languages}
+ * hunspell-en-us
 
 == Lubuntu specifics ==
 
- * lubuntu-live-settings    # Add specific settings to the live image (like not starting light-locker)        
+ * lubuntu-live-settings    # Add specific settings to the live image (like not starting light-locker)
  * zram-config              # enable zram support with an upstart job
  * feh                      # Background support in ubiquity-dm mode
 

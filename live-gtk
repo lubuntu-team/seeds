@@ -15,7 +15,7 @@ ubiquity-slideshow-lubuntu
 
 == Languages support ==
 
- * Languages: en
+ * Languages: en es zh-hans pt de fr it ru
  * language-pack-gnome-${Languages}
  * firefox-locale-${Languages}
 
