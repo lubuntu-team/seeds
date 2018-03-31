@@ -17,7 +17,7 @@ Task-Seeds: desktop-share core-gtk
 
  * lubuntu-default-session
 
-= Lxde =
+= LXDE =
 
  * lxappearance
  * lxappearance-obconf
@@ -114,6 +114,7 @@ Task-Seeds: desktop-share core-gtk
  * software-properties-gtk          # Nice GUI to change reporsitory settings / extra drivers
  * update-notifier                  # For crash report and updates notifications
  * ubuntu-release-upgrader-gtk      # For upgrade of L/Ubuntu releases.
+ * gdebi                            # Really nice tool to install deb packages
 
 == Input method ==
 
