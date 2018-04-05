@@ -22,7 +22,7 @@ Task-Seeds: live-common
 == Lubuntu specifics ==
 
  * lubuntu-live-settings    # Add specific settings to the live image (like not starting light-locker)
-# * zram-config              # enable zram support with an upstart job - commented out because encrypted LVM doesn't want to work, LP: #1759732
+ * zram-config              # enable zram support with an upstart job
  * feh                      # Background support in ubiquity-dm mode
 
 == Other ==
