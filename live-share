@@ -29,3 +29,4 @@ Task-Seeds: live-common
 
  * gparted
  * cifs-utils               # Needed by casper for CIFS root=
+ * samba-common-bin         # A recommends of the above cifs-utils
