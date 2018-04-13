@@ -129,6 +129,8 @@ Task-Seeds: core-share
 
  * anacron                          # generally appropriate for desktops
 
+ * (ubuntu-report)                  # Allow analytic reporting
+
 == Specific ==
 
  * apmd [armel]

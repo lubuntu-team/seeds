@@ -25,6 +25,9 @@ Task-Name: core-share
                                     # avoid other icon theme to be installed.
  * !adwaita-icon-theme              # Exclude adwaita-icon-theme because it's already provided
                                     # by lubuntu-icon-theme
+
+ * (ubuntu-report)                  # Allow analytic reporting
+
 = X =
 
  * xserver-xorg-video-all           # Depend on the driver-all packages, xorg doesn't provide them
