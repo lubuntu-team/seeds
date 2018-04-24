@@ -9,8 +9,5 @@ Task-Seeds: core-gtk core-share
 
  * Feature: no-follow-recommends
 
-= Workaround for germinate ordering of alternative dependencies =
- * lxterminal # we want lxterminal, not $x-terminal-emulator
-
 = Meta-package =
  * lubuntu-core
