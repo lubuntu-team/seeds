@@ -1,4 +1,4 @@
-include platform.bionic
+include platform.cosmic
 feature no-follow-recommends
 core: core-share
 core-gtk: core-share
