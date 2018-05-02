@@ -1,21 +1,8 @@
 include platform.cosmic
-feature no-follow-recommends
-core: core-share
-core-gtk: core-share
-core-qt: core-share
-core-share: standard
-desktop: core desktop-gtk
-desktop-gtk: desktop-share core-gtk standard
-desktop-qt: desktop-share core-qt standard
-desktop-share: core-share standard
-live: desktop live-share live-common
-live-gtk: desktop-gtk live-share live-common
-live-qt: desktop-qt live-share live-common
-live-share: live-common
+core: standard
+desktop: core standard
+live: desktop live-common
 ship: boot installer desktop d-i-requirements
-ship-live: ship-live-gtk ship-live-share
-ship-live-gtk: ship-live-share boot live
-ship-live-qt: ship-live-share boot live
-ship-live-share: boot live
+ship-live: boot live
 # make sure supported remains the last entry
 supported: core desktop ship-live supported-common

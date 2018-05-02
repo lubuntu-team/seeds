@@ -3,13 +3,32 @@ Task-Section: user
 Task-Description: Lubuntu live CD
 Task-Extended-Description: This task provides the extra packages installed on the Lubuntu live CD. It is neither useful nor recommended to install this task in other environments.
 Task-Relevance: 2
-Task-Key: ubiquity-frontend
-Task-Test-new-install: skip show
-Task-Seeds: live-gtk live-share live-common
 
- * Feature: no-follow-recommends
+== Calamares frontend ==
 
-== Languages support ==
+ * calamares-settings-lubuntu
 
- * Languages: en
+== Bootloader ==
+
+ * grub-pc                  # no-follow-recommends doesn't put grub on the ISO (ubiquity recommends)
+                            # See LP: 1649462
+
+== Language support ==
+
+ # This is the same as what regular Ubuntu ships
+ * Languages: en es zh-hans pt de fr it ru
  * language-pack-${Languages}
+ * language-pack-kde-${Languages}
+ * hunspell-en-us
+
+== Lubuntu specifics ==
+
+ * lubuntu-live-settings    # Add specific settings to the live image (like not starting light-locker)
+ * zram-config              # Enable zram support with an upstart job
+ * feh                      # Background support in ubiquity-dm mode
+
+== Other ==
+
+ * partitionmanager         # Easy partition management tool
+ * cifs-utils               # Needed by casper for CIFS root=
+ * samba-common-bin         # A recommends of the above cifs-utils

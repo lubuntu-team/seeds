@@ -1,16 +1,3 @@
-## GNOME component
-# gnome-panel enable theinstallation of gnome-docs with language selector
-gnome-panel
-# Installing gdm have some side effects, like launching when lxdm is working
-gdm
-# gnome-session don't work nicely with lxde-session
-gnome-session
-## Specific packages
-# High CPU usage, see lp:798437
-apt-xapian-index
-# Bring part of gnome and unity
-unity-greeter
-
 # Ubuntu has added a suggested package which installs a config file for network manager.
 # This config file enables a feature which checks the connection is actually connected
 # to the internet. It does this by connecting to a website on the internet every five

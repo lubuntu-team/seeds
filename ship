@@ -16,7 +16,7 @@
 == Common UNIX stuff ==
 
  * nfs-common		        # allows people to access NFS filesystems
- # * vim                    # vim-tiny is in minimal; vim includes syntax highlighting, help files, etc.
+ * vim                          # vim-tiny is in minimal; vim includes syntax highlighting, help files, etc.
 
 == Hardware & Network Access ==
 

@@ -1,13 +1,53 @@
 Task-Per-Derivative: 1
 Task-Section: user
 Task-Description: Lubuntu minimal installation
-Task-Extended-Description: This task provides minimal packages for Lubuntu (Ubuntu LXDE environment).
+Task-Extended-Description: This task provides minimal packages for Lubuntu (Ubuntu LXQt environment).
 Task-Key: lubuntu-core
 Task-Name: lubuntu-core
 Task-Metapackage: lubuntu-core
-Task-Seeds: core-gtk core-share
 
- * Feature: no-follow-recommends
+= Metapackage =
 
-= Meta-package =
  * lubuntu-core
+
+= Lubuntu core packages =
+
+ * lubuntu-default-settings
+ * lubuntu-artwork
+ * lubuntu-icon-theme
+ * plymouth-theme-lubuntu-next-logo
+ * plymouth-theme-lubuntu-next-text
+
+= LXQt core packages =
+
+ * openbox
+ * pcmanfm-qt
+ * lxqt-core
+ * qterminal
+
+ * libqt5svg5                       # Force svg support for Qt
+ * oxygen-icon-theme                # Default LXQt settings need it
+
+= Display manager =
+
+ * sddm
+ * sddm-theme-lubuntu-chooser
+ * !sddm-theme-breeze # Don't install this, we don't need it and it causes problems on install.
+
+= X =
+
+ * xserver-xorg-video-all           # Depend on the driver-all packages, xorg doesn't provide them
+ * xserver-xorg-input-all           # and desktop-common seed only recommend them. LP: #1441843
+ * xserver-xorg-input-synaptics     # x-x-input-all only Recommends; LP: #1667128
+ * xserver-xorg-video-intel         # Not installed by default, better for old Intel cards
+ * xserver-xorg-video-qxl           # Hi resolution support on virtual environments
+
+= Other needed packages =
+
+ * dbus-x11
+ * ubuntu-mono                      # Minimal artwork bits, seed him with lubuntu-artwork to
+                                    # avoid other icon theme to be installed.
+ * !adwaita-icon-theme              # Exclude adwaita-icon-theme because it's already provided
+                                    # by lubuntu-icon-theme
+
+ * (ubuntu-report)                  # Allow analytic reporting

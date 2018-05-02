@@ -1,18 +1,222 @@
 Task-Per-Derivative: 1
 Task-Section: user
 Task-Description: Lubuntu Desktop
-Task-Extended-Description: This task provides the Lubuntu (Ubuntu LXDE environment).
+Task-Extended-Description: This task provides the Lubuntu (Ubuntu LXQt environment).
 Task-Key: lubuntu-desktop
 Task-Name: lubuntu-desktop
 Task-Metapackage: lubuntu-desktop
-Task-Seeds: desktop-gtk desktop-share
-
- * Feature: no-follow-recommends
 
 == Default seeds ==
 
- * lubuntu-desktop-gtk
- * lubuntu-core
+ * lubuntu-qt-core
 
 == Metapackage ==
- * lubuntu-desktop                  # metapackage for everything here
+
+ * lubuntu-qt-desktop                  # metapackage for everything here
+
+= Lubuntu =
+
+ * qlubuntu-default-session
+
+= LXQt =
+
+ * lxqt
+
+== Internet ==
+
+ * falkon
+ * transmission-qt
+ * quassel
+
+== Multimedia ==
+
+ * smplayer
+ * smplayer-l10n
+ * smplayer-themes
+ * smtube
+ * calibre
+
+== Accessories ==
+
+ * 2048-qt
+ * featherpad
+ * noblenote
+ * ark
+ * screengrab
+ * nomacs                           # Edit image capability, instead of lximage-qt
+ * kcalc
+ * qps
+
+== Desktopish tools which we do need ==
+
+ * xscreensaver
+ * pinentry-qt                      # LP: #1473952 - Install the Qt version of pinentry, along with gpg-agent.
+ * usb-creator-kde                  # Adding utility to make USB bootable
+ * compton-conf
+ * obconf-qt
+ * qlipper
+ * qtpass
+ * qttranslations5-l10n             # Needed for proper translations support
+
+== Office ==
+
+ * libreoffice-calc
+ * libreoffice-impress
+ * libreoffice-writer
+ * libreoffice-kde
+ * qpdfview
+ * skanlite
+
+== Low level system plumbery ==
+
+# Packages management
+ * muon
+ * plasma-discover
+
+ * software-properties-kde          # Nice GUI to change reporsitory settings / extra drivers
+ * ubuntu-release-upgrader-qt
+
+ * fcitx-frontend-qt5
+ * fcitx-ui-qimpanel
+
+ * network-manager
+ * nm-tray                          # Simple, lightweight Qt 5 NM frontend
+
+ * bluedevil
+
+== Theming ==
+
+ * papirus-icon-theme
+ * arc-theme
+
+== Other ==
+ * (ttf-ancient-fonts-symbola)      # Emoji support
+ * lubuntu-qt-desktop               # metapackage for everything here
+
+== LXDE / LXQt common components ==
+
+ * libfm-modules
+
+== Multimedia ==
+
+ * libmtp-runtime                   # needed by libmtp9 (normally seeded through recommends LP: #1061430)
+ * ffmpegthumbnailer                # For videos thumbnails
+
+== Desktopish tools which we do need ==
+
+ * desktop-file-utils               # map MIME types to apps
+ * xdg-user-dirs	            # to add the Desktop directory
+ * gvfs-fuse 		            # for access of non gio applications to gvfs mounts
+ * gvfs-backends 	            # for adding support for backends (photos, network etc ...) to gvfs
+
+== Desktopish tools that are nice to have ==
+
+ * (neofetch)                       # nice tool to have by default for distro reviewers, doesn't take up any space
+ * (pastebinit)                     # we tell users to use it in the support channels, and it takes up minimal space
+ * (htop)                           # superior top replacement that's already in main
+
+== desktop-common recommends that are nice to have ==
+
+ * (fonts-kacst-one)
+ * (fonts-khmeros-core)
+ * (fonts-thai-tlwg)
+ * (fonts-lao)
+ * (ttf-ubuntu-font-family)
+ * (fonts-sil-padauk)
+ * (fonts-tibetan-machine)
+ * (fonts-sil-abyssinica)
+ * (fonts-lklug-sinhala)
+ * (fonts-indic)
+ * (fonts-liberation)
+ * (fonts-noto-cjk)
+
+== Archive support ==
+
+# Add more type of archive support
+ * xz-utils
+ * zip
+ * unzip                            # also used for .zip support in file-roller
+
+== Artwork and Look & Feel ==
+
+ * dmz-cursor-theme                 # LP: #923344
+
+== Printing ==
+
+ * cups                             # our preferred printer management infrastructure
+ * cups-bsd                         # gives us lpc, lpq, lpr, lprm
+ * cups-client                      # gives us cancel, cupstestppd, lp, lpoptions, lppasswd, lpstat, cupsaddsmb, accept, lpadmin, lpinfo, lpmove
+ * foomatic-db-compressed-ppds      # the foomatic printer driver database
+ * cups-filters
+ * openprinting-ppds                # Most common drivers we want in desktop; less common are in o-p-extra
+ * printer-driver-pnm2ppa           # several ppds require this
+ * ghostscript-x
+ * hplip     			            # support for HP all-in-one printers
+ * printer-driver-min12xxw	        # support for KonicaMinolta PagePro 1200W, 1300W printers
+ * printer-driver-foo2zjs	        # support for printing to ZjStream-based printers
+ * printer-driver-splix	            # support for Samsung lasers
+ * printer-driver-pxljr	            # support for HP Color lasers
+ * printer-driver-c2esp             # support for Kodak injket printers
+ * printer-driver-ptouch            # support for Brother P-touch printers
+ * printer-driver-sag-gdi           # support for Rico Aficio SPxxxx printers
+ * printer-driver-brlaser           # support for some Brother laser printers
+ * printer-driver-gutenprint        # Previously cups-driver-gutenprint
+
+== Sound ==
+
+ * pulseaudio                       # Support for most audios devices
+
+== Terminal tools (from desktop-common) ==
+
+ * bc
+ * genisoimage
+
+== Networking ==
+
+ * wvdial
+ * modemmanager                     # Add support for mobile modem LP: #967132
+ * mobile-broadband-provider-info   # LP: #975139
+ * usb-modeswitch                   # LP: #979304
+ * wireless-tools
+ * rfkill                           # No longer using the copy from wireless-tools (LP: #715309)
+ * wpasupplicant                    # ScottJamesRemnant
+ * libnss-mdns                      # IPv4 link-local DNS support
+ * ca-certificates                  # common SSL certificates
+ * avahi-daemon
+
+== Low level system plumbery ==
+
+ * acpi-support
+ * laptop-detect
+ * update-notifier                  # For crash report and updates notifications
+ * ubuntu-drivers-common            # Make it harder to remove detection support, LP#704597
+ * policykit-desktop-privileges     # passwordless disk/CPU speed/time operations for admins
+ * libpam-systemd                   # logind, cross desktop compatibility
+ * x11-utils
+ * whoopsie                         # LP: 1001630
+ * kerneloops-daemon                # watch for and allow reporting of kernel problems
+
+ * fonts-noto-cjk                   # Extra font to display asian characters LP: #1437875 and LP: #1581160
+
+ * pcmciautils                      # PCMCIA support for >= 2.6.13-rc1 kernels
+ * inputattach                      # needed for serial mice
+ * libsasl2-modules                 # allows integration with MTA and login system
+
+ * fwupd
+ * fwupdate                         # Firmware updating support
+ * fwupdate-signed
+
+ * fcitx
+
+ * xkb-data
+
+ * memtest86+
+
+ * anacron                          # generally appropriate for desktops
+
+ * (ubuntu-report)                  # Allow analytic reporting
+
+== Specific ==
+
+ * apmd [armel]
+ * pbbuttonsd [powerpc]
