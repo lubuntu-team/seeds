@@ -8,11 +8,11 @@ Task-Metapackage: lubuntu-desktop
 
 == Default seeds ==
 
- * lubuntu-qt-core
+ * lubuntu-core
 
 == Metapackage ==
 
- * lubuntu-qt-desktop                  # metapackage for everything here
+ * lubuntu-desktop                  # metapackage for everything here
 
 = Lubuntu =
 
@@ -91,7 +91,6 @@ Task-Metapackage: lubuntu-desktop
 
 == Other ==
  * (ttf-ancient-fonts-symbola)      # Emoji support
- * lubuntu-qt-desktop               # metapackage for everything here
 
 == LXDE / LXQt common components ==
 
