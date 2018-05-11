@@ -4,4 +4,4 @@ live: desktop live-common
 ship: boot installer desktop d-i-requirements
 ship-live: boot live
 # make sure supported remains the last entry
-supported: core desktop ship-live supported-common
+supported: desktop ship-live supported-common
