@@ -23,7 +23,6 @@ Task-Relevance: 2
 
 == Lubuntu specifics ==
 
- * lubuntu-live-settings    # Add specific settings to the live image (like not starting light-locker)
  * zram-config              # Enable zram support with an upstart job
  * feh                      # Background support in ubiquity-dm mode
 

@@ -15,9 +15,8 @@ Task-Metapackage: lubuntu-desktop
 
  * lubuntu-default-settings
  * lubuntu-artwork
- * lubuntu-icon-theme
- * plymouth-theme-lubuntu-next-logo
- * plymouth-theme-lubuntu-next-text
+ * plymouth-theme-lubuntu-logo
+ * plymouth-theme-lubuntu-text
 
 = LXQt core packages =
 
@@ -42,10 +41,6 @@ Task-Metapackage: lubuntu-desktop
                                     # avoid other icon theme to be installed.
  * !adwaita-icon-theme              # Exclude adwaita-icon-theme because it's already provided
                                     # by lubuntu-icon-theme
-
-= Lubuntu =
-
- * qlubuntu-default-session
 
 = LXQt =
 
