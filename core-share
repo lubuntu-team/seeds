@@ -27,6 +27,7 @@ Task-Name: core-share
                                     # by lubuntu-icon-theme
 
  * (ubuntu-report)                  # Allow analytic reporting
+ * python3-launchpadlib             # needed for apport to run; LP: #1764399
 
 = X =
 
