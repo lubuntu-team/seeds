@@ -211,7 +211,6 @@ Task-Metapackage: lubuntu-desktop
 
  * acpi-support
  * laptop-detect
- * update-notifier                  # For crash report and updates notifications
  * ubuntu-drivers-common            # Make it harder to remove detection support, LP#704597
  * policykit-desktop-privileges     # passwordless disk/CPU speed/time operations for admins
  * libpam-systemd                   # logind, cross desktop compatibility
