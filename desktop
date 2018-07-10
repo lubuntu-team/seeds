@@ -25,7 +25,7 @@ Task-Metapackage: lubuntu-desktop
  * lxqt-core
  * qterminal
 
- * libqt5svg5                       # Force svg support for Qt
+ * libqt5svg5                       # Force SVG support for Qt
  * oxygen-icon-theme                # Default LXQt settings need it
 
 = Display manager =
@@ -37,14 +37,18 @@ Task-Metapackage: lubuntu-desktop
 = Other needed packages =
 
  * dbus-x11
- * ubuntu-mono                      # Minimal artwork bits, seed him with lubuntu-artwork to
+ * ubuntu-mono                      # Minimal artwork bits, seed with lubuntu-artwork to
                                     # avoid other icon theme to be installed.
- * !adwaita-icon-theme              # Exclude adwaita-icon-theme because it's already provided
-                                    # by lubuntu-icon-theme
 
 = LXQt =
 
- * lxqt
+ * lxqt-core
+ * lxqt-about
+ * lxqt-admin
+ * lxqt-openssh-askpass
+ * lxqt-powermanagement
+ * lxqt-sudo
+ * pavucontrol-qt
 
 == Internet ==
 

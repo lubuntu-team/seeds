@@ -24,10 +24,8 @@ Task-Relevance: 2
 == Lubuntu specifics ==
 
  * zram-config              # Enable zram support with an upstart job
- * feh                      # Background support in ubiquity-dm mode
 
 == Other ==
 
  * partitionmanager         # Easy partition management tool
- * cifs-utils               # Needed by casper for CIFS root=
- * samba-common-bin         # A recommends of the above cifs-utils
+ * cifs-utils               # Needed by casper for CIFS root
