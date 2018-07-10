@@ -31,7 +31,7 @@ Task-Metapackage: lubuntu-desktop
 = Display manager =
 
  * sddm
- * sddm-theme-lubuntu-chooser
+ * sddm-theme-lubuntu
  * !sddm-theme-breeze # Don't install this, we don't need it and it causes problems on install.
 
 = Other needed packages =
