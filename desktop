@@ -164,10 +164,6 @@ Task-Metapackage: lubuntu-desktop
  * zip
  * unzip                            # also used for .zip support in file-roller
 
-== Artwork and Look & Feel ==
-
- * dmz-cursor-theme                 # LP: #923344
-
 == Printing ==
 
  * cups                             # our preferred printer management infrastructure
