@@ -82,6 +82,10 @@ Task-Metapackage: lubuntu-desktop
  * usb-creator-kde                  # Adding utility to make USB bootable
  * compton-conf
  * obconf-qt
+ * !obconf                          # Don't pull in some Openbox recommends
+ * !obsession
+ * !scrot
+ * !openbox-menu
  * qlipper
  * qtpass
  * qttranslations5-l10n             # Needed for proper translations support
