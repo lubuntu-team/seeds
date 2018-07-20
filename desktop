@@ -75,6 +75,7 @@ Task-Metapackage: lubuntu-desktop
  * kcalc
  * qps
  * (vim)                              # Useful, full-featured, terminal-based editor
+ * (zsync)
 
 == Desktopish tools which we do need ==
 
