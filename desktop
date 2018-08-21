@@ -53,27 +53,27 @@ Task-Metapackage: lubuntu-desktop
 
 == Internet ==
 
- * falkon
- * transmission-qt
+ * (falkon)
+ * (transmission-qt)
  * quassel
 
 == Multimedia ==
 
- * smplayer
- * smplayer-l10n
- * smplayer-themes
- * smtube
+ * (smplayer)
+ * (smplayer-l10n)
+ * (smplayer-themes)
+ * (smtube)
 
 == Accessories ==
 
- * 2048-qt
- * featherpad
- * noblenote
- * ark
- * screengrab
- * nomacs                           # Edit image capability, instead of lximage-qt
- * kcalc
- * qps
+ * (2048-qt)
+ * (featherpad)
+ * (noblenote)
+ * (ark)
+ * (screengrab)
+ * (nomacs)                           # Edit image capability, instead of lximage-qt
+ * (kcalc)
+ * (qps)
  * (vim)                              # Useful, full-featured, terminal-based editor
  * (zsync)
 
@@ -82,30 +82,30 @@ Task-Metapackage: lubuntu-desktop
  * xscreensaver
  * pinentry-qt                      # LP: #1473952 - Install the Qt version of pinentry, along with gpg-agent.
  * usb-creator-kde                  # Adding utility to make USB bootable
- * compton-conf
+ * (compton-conf)
  * obconf-qt
  * !obconf                          # Don't pull in some Openbox recommends
  * !obsession
  * !scrot
  * !openbox-menu
- * qlipper
- * qtpass
+ * (qlipper)
+ * (qtpass)
  * qttranslations5-l10n             # Needed for proper translations support
 
 == Office ==
 
- * libreoffice-calc
- * libreoffice-impress
- * libreoffice-writer
- * libreoffice-kde
- * qpdfview
- * skanlite
+ * (libreoffice-calc)
+ * (libreoffice-impress)
+ * (libreoffice-writer)
+ * (libreoffice-kde)
+ * (qpdfview)
+ * (skanlite)
 
 == Low level system plumbery ==
 
 # Packages management
- * muon
- * plasma-discover
+ * (muon)
+ * (plasma-discover)
 
  * software-properties-qt           # Nice GUI to change reporsitory settings / extra drivers
  * ubuntu-release-upgrader-qt
