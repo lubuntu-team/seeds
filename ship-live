@@ -18,3 +18,4 @@ packages.
  * grub-efi [amd64]
  * grub-efi-amd64-signed [amd64]
  * shim-signed [amd64]
+ * mokutil [amd64 i386 arm64 armhf] # Needed for UEFI installs with no network
