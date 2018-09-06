@@ -59,10 +59,14 @@ Task-Metapackage: lubuntu-desktop
 
 == Multimedia ==
 
- * (smplayer)
- * (smplayer-l10n)
- * (smplayer-themes)
- * (smtube)
+ * (vlc)
+ * (vlc-plugin-access-extra)
+ * (vlc-plugin-notify)
+ * (vlc-plugin-samba)
+ * (vlc-plugin-skins2)
+ * (vlc-plugin-svg)
+ * (vlc-plugin-video-splitter)
+ * (vlc-visualization)
 
 == Accessories ==
 
@@ -71,7 +75,6 @@ Task-Metapackage: lubuntu-desktop
  * (noblenote)
  * (ark)
  * (screengrab)
- * (nomacs)                           # Edit image capability, instead of lximage-qt
  * (kcalc)
  * (qps)
  * (vim)                              # Useful, full-featured, terminal-based editor
@@ -97,7 +100,9 @@ Task-Metapackage: lubuntu-desktop
  * (libreoffice-calc)
  * (libreoffice-impress)
  * (libreoffice-writer)
- * (libreoffice-kde)
+ * (libreoffice-kde5)
+ * !libreoffice-gtk3
+ * !libreoffice-gnome
  * (qpdfview)
  * (skanlite)
 
