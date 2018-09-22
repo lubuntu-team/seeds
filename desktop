@@ -122,6 +122,7 @@ Task-Metapackage: lubuntu-desktop
  * nm-tray                          # Simple, lightweight Qt 5 NM frontend
 
  * bluedevil
+ * pulseaudio-module-bluetooth      # Required for BT audio headsets
 
 == Theming ==
 
