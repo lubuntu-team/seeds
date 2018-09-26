@@ -3,6 +3,9 @@ Task-Section: user
 Task-Description: Lubuntu live CD
 Task-Extended-Description: This task provides the extra packages installed on the Lubuntu live CD. It is neither useful nor recommended to install this task in other environments.
 Task-Relevance: 2
+Task-Key: calamares-settings-lubuntu
+Task-Test-new-install: skip show
+Task-Seeds: live-common
 
 == Calamares frontend ==
 
