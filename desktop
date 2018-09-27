@@ -27,6 +27,7 @@ Task-Metapackage: lubuntu-desktop
 
  * libqt5svg5                       # Force SVG support for Qt
  * oxygen-icon-theme                # Default LXQt settings need it
+ * kde-style-breeze                 # Breeze Theme
  * breeze-cursor-theme              # Excellent-quality cursor theme, by KDE
 
 = Display manager =
