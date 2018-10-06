@@ -30,6 +30,5 @@ Task-Seeds: live-common
 
 == Other ==
 
- * partitionmanager         # Easy partition management tool
  * cifs-utils               # Needed by casper for CIFS root
  * cryptsetup               # For LUKS/encryption support in Calamares
