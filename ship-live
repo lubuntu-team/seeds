@@ -17,5 +17,6 @@ packages.
  * grub2                         # needed for dmraid et al
  * grub-efi [amd64]
  * grub-efi-amd64-signed [amd64]
+ * grub-efi-ia32 [amd64 i386]    # Needed for 32-bit UEFI installs, sometimes on amd64
  * shim-signed [amd64]
  * mokutil [amd64 i386 arm64 armhf] # Needed for UEFI installs with no network
