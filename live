@@ -22,6 +22,7 @@ Task-Seeds: live-common
  * Languages: en es zh-hans pt de fr it ru
  * language-pack-${Languages}
  * language-pack-kde-${Languages}
+ * libreoffice-help-en-us
  * hunspell-en-us
 
 == Lubuntu specifics ==
