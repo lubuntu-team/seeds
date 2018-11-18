@@ -25,7 +25,7 @@ Task-Seeds: live-common
 
 == Lubuntu specifics ==
 
- * zram-config              # Enable zram support with an upstart job
+ * zram-config              # Enable zram support
 
 == Other ==
 
