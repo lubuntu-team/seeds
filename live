@@ -13,8 +13,7 @@ Task-Seeds: live-common
 
 == Bootloader ==
 
- * grub-pc                  # no-follow-recommends doesn't put grub on the ISO (ubiquity recommends)
-                            # See LP: 1649462
+ * grub-pc
 
 == Language support ==
 
