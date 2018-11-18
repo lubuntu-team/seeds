@@ -21,7 +21,6 @@ Task-Seeds: live-common
  # This is the same as what regular Ubuntu ships
  * Languages: en es zh-hans pt de fr it ru
  * language-pack-${Languages}
- * language-pack-kde-${Languages}
  * libreoffice-help-en-us
  * hunspell-en-us
 
