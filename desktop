@@ -81,6 +81,7 @@ Task-Metapackage: lubuntu-desktop
  * (vim)                              # Useful, full-featured, terminal-based editor
  * (zsync)
  * (partitionmanager)                 # Easy partition management tool
+ * (qapt-deb-installer)               # Qt .deb installer tool
 
 == Desktopish tools which we do need ==
 
