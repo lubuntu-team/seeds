@@ -11,3 +11,5 @@ network-manager-config-connectivity-debian
 # Snaps by default, so let's not even put it on the ISO, people can install it if they
 # want it...
 snapd
+#If some package ask for it, as happen on 13feb 2019 daily.
+gnome-shell
