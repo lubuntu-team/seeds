@@ -6,8 +6,3 @@
 network-manager-config-connectivity
 network-manager-config-connectivity-ubuntu
 network-manager-config-connectivity-debian
-
-# snapd automatically uses a bit of RAM, and Lubuntu doesn't plan on ever installing
-# Snaps by default, so let's not even put it on the ISO, people can install it if they
-# want it...
-snapd

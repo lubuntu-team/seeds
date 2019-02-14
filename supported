@@ -40,7 +40,6 @@ included due to matching Extra-Include patterns, and has no other effect):
  * Extra-Exclude: libgl1-mesa-dri-experimental-dbg # LP: #638097
  * Extra-Exclude: python-vigra-doc # libvigraimpex is in main, but nothing uses python-vigra
  * Extra-Exclude: libunity-*-dev unity-2d-dbg
- * Extra-Exclude: snapd
 
 
 Transitional packages:
