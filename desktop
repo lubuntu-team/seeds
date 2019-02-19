@@ -50,6 +50,7 @@ Task-Metapackage: lubuntu-desktop
  * lxqt-openssh-askpass
  * lxqt-powermanagement
  * lxqt-sudo
+ * lxqt-notificationd               # Due to libnotify depends we need to explicitly seed this or GNOME gets installed
  * pavucontrol-qt
 
 == Internet ==
