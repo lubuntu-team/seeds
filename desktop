@@ -233,6 +233,7 @@ Task-Metapackage: lubuntu-desktop
  * libpam-systemd                   # logind, cross desktop compatibility
  * x11-utils
  * whoopsie                         # LP: 1001630
+ * python3-launchpadlib             # for apport
  * kerneloops-daemon                # watch for and allow reporting of kernel problems
 
  * fonts-noto-cjk                   # Extra font to display asian characters LP: #1437875 and LP: #1581160
