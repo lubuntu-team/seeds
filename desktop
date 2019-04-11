@@ -104,8 +104,7 @@ Task-Metapackage: lubuntu-desktop
  * (libreoffice-calc)
  * (libreoffice-impress)
  * (libreoffice-writer)
- * (libreoffice-kde5)
- * (libreoffice-gtk3)
+ * (libreoffice-gtk3)               #lo-kde5 save dialog doesn't add extension, lo-qt isn't ready, see bug 1812101
  * (libreoffice-style-breeze)
  * !libreoffice-gnome
  * (qpdfview)
