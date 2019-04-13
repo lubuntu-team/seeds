@@ -253,7 +253,6 @@ Task-Metapackage: lubuntu-desktop
 
  * anacron                          # generally appropriate for desktops
 
- * (ubuntu-report)                  # Allow analytic reporting
 
 == Specific ==
 
