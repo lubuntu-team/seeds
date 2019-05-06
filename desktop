@@ -83,6 +83,7 @@ Task-Metapackage: lubuntu-desktop
  * (zsync)
  * (partitionmanager)                 # Easy partition management tool
  * (qapt-deb-installer)               # Qt .deb installer tool
+ * (k3b)                              # CD/DVD burning
 
 == Desktopish tools which we do need ==
 
