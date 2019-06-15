@@ -125,6 +125,7 @@ Task-Metapackage: lubuntu-desktop
 
  * network-manager
  * nm-tray                          # Simple, lightweight Qt 5 NM frontend
+ * network-manager-gnome            # To use nm-connection-editor, since there is no Qt one.
 
  * bluedevil
  * pulseaudio-module-bluetooth      # Required for BT audio headsets
