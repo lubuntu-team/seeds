@@ -121,8 +121,7 @@ Task-Metapackage: lubuntu-desktop
  * software-properties-qt           # Nice GUI to change reporsitory settings / extra drivers
  * ubuntu-release-upgrader-qt
 
- * fcitx-frontend-qt5
- * fcitx-ui-qimpanel
+ * fcitx-frontend-qt5               # Note: do NOT add fcitx-ui-qimpanel
 
  * network-manager
  * nm-tray                          # Simple, lightweight Qt 5 NM frontend
