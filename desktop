@@ -244,8 +244,7 @@ Task-Metapackage: lubuntu-desktop
  * libsasl2-modules                 # allows integration with MTA and login system
 
  * fwupd
- * fwupdate                         # Firmware updating support
- * fwupdate-signed
+ * fwupd-signed
 
  * fcitx
 
