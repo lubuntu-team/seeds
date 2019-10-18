@@ -1,4 +1,4 @@
-include platform.eoan
+include platform.focal
 desktop: desktop-common
 live: desktop live-common
 ship-live: boot live
