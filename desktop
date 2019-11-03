@@ -120,7 +120,6 @@ Task-Metapackage: lubuntu-desktop
 
  * software-properties-qt           # Nice GUI to change reporsitory settings / extra drivers
  * ubuntu-release-upgrader-qt
- * lubuntu-update-notifier
 
  * fcitx-frontend-qt5               # Note: do NOT add fcitx-ui-qimpanel
 
