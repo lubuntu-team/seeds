@@ -112,6 +112,7 @@ Task-Metapackage: lubuntu-desktop
  * (libreoffice-impress)
  * (libreoffice-writer)
  * (libreoffice-gtk3)               #lo-kde5 save dialog doesn't add extension, lo-qt isn't ready, see bug 1812101
+ * (libreoffice-qt5)                #after we set SAL_USE_VCLPLUGIN=qt5 and test it we can remove precedent lo-gtk3
  * (libreoffice-style-breeze)
  * !libreoffice-gnome
  * (qpdfview)
