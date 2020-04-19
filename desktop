@@ -104,7 +104,6 @@ Task-Metapackage: lubuntu-desktop
  * xscreensaver-gl
  * xscreensaver-gl-extra
  * xscreensaver-data-extra
- * xfonts-efont-unicode
 
 == Office ==
 
@@ -141,7 +140,6 @@ Task-Metapackage: lubuntu-desktop
 
  * papirus-icon-theme
  * arc-theme
- * lubuntu-grub-theme
 
 == Other ==
  * (ttf-ancient-fonts-symbola)      # Emoji support
