@@ -104,6 +104,7 @@ Task-Metapackage: lubuntu-desktop
  * xscreensaver-gl
  * xscreensaver-gl-extra
  * xscreensaver-data-extra
+ * xfonts-efont-unicode
 
 == Office ==
 
