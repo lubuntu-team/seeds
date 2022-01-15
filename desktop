@@ -60,7 +60,6 @@ Task-Metapackage: lubuntu-desktop
  * (firefox)
  * (transmission-qt)
  * (quassel)
- * (trojita)
 
 == Multimedia ==
 
@@ -86,7 +85,6 @@ Task-Metapackage: lubuntu-desktop
  * (zsync)
  * (partitionmanager)                 # Easy partition management tool
  * (qapt-deb-installer)               # Qt .deb installer tool
- * (k3b)                              # CD/DVD burning
 
 == Desktopish tools which we do need ==
 
@@ -128,8 +126,6 @@ Task-Metapackage: lubuntu-desktop
  * software-properties-qt           # Nice GUI to change reporsitory settings / extra drivers
  * ubuntu-release-upgrader-qt
  * lubuntu-update-notifier
-
- * fcitx-frontend-qt5               # Note: do NOT add fcitx-ui-qimpanel
 
  * network-manager
  * nm-tray                          # Simple, lightweight Qt 5 NM frontend
@@ -253,8 +249,6 @@ Task-Metapackage: lubuntu-desktop
 
  * fwupd
  * fwupd-signed
-
- * fcitx
 
  * xkb-data
 
