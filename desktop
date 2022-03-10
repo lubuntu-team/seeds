@@ -175,7 +175,7 @@ Task-Metapackage: lubuntu-desktop
  * (fonts-khmeros-core)
  * (fonts-thai-tlwg)
  * (fonts-lao)
- * (ttf-ubuntu-font-family)
+ * (fonts-ubuntu)
  * (fonts-sil-padauk)
  * (fonts-tibetan-machine)
  * (fonts-sil-abyssinica)
