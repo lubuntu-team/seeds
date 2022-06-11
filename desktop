@@ -54,6 +54,7 @@ Task-Metapackage: lubuntu-desktop
  * lxqt-notificationd               # Due to libnotify depends we need to explicitly seed this or GNOME gets installed
  * lxqt-policykit                   # Due to network-manager-gnome depends we need to explicitly seed this or GNOME gets installed
  * pavucontrol-qt
+ * xdg-desktop-portal-lxqt
 
 == Internet ==
 
