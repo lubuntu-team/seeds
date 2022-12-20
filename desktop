@@ -140,7 +140,6 @@ Task-Metapackage: lubuntu-desktop
  * network-manager-gnome            # To use nm-connection-editor, since there is no Qt one.
 
  * bluedevil
- * pulseaudio-module-bluetooth      # Required for BT audio headsets
 
 == Theming ==
 
@@ -217,7 +216,11 @@ Task-Metapackage: lubuntu-desktop
 
 == Sound ==
 
- * pulseaudio                       # Support for most audios devices
+ * pipewire
+ * pipewire-pulse
+ * (wireplumber)
+ * libspa-0.2-bluetooth
+ * gstreamer1.0-pipewire
 
 == Terminal tools (from desktop-common) ==
 
