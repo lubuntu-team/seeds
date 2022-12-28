@@ -221,6 +221,7 @@ Task-Metapackage: lubuntu-desktop
  * (wireplumber)
  * libspa-0.2-bluetooth
  * gstreamer1.0-pipewire
+ * pipewire-alsa                    # Fixes failure to play audio in at least some apps (Hexchat, Thunderbird) while other audio is playing at the same time
 
 == Terminal tools (from desktop-common) ==
 
