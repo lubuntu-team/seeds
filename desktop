@@ -130,6 +130,7 @@ Task-Metapackage: lubuntu-desktop
 # Packages management
  * (muon)
  * (plasma-discover)
+ * !kde-config-updates              # Possibly dangerous in Lubuntu, causes KDE System Settings to be installed which looks so out of place
 
  * software-properties-qt           # Nice GUI to change reporsitory settings / extra drivers
  * ubuntu-release-upgrader-qt
