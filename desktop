@@ -218,11 +218,10 @@ Task-Metapackage: lubuntu-desktop
 == Sound ==
 
  * pipewire
- * pipewire-pulse
+ * pipewire-audio                   # Get pipewire-alsa and pipewire-pulse without causing Pulseaudio-related upgrade problems
  * (wireplumber)
  * libspa-0.2-bluetooth
  * gstreamer1.0-pipewire
- * pipewire-alsa                    # Fixes failure to play audio in at least some apps (Hexchat, Thunderbird) while other audio is playing at the same time
 
 == Terminal tools (from desktop-common) ==
 
