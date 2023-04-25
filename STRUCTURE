@@ -1,4 +1,4 @@
-include platform.lunar
+include platform.mantic
 desktop: desktop-common
 live: desktop live-common
 ship-live: boot live
