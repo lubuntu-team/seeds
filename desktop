@@ -171,6 +171,7 @@ Task-Metapackage: lubuntu-desktop
  * (neofetch)                       # nice tool to have by default for distro reviewers, doesn't take up any space
  * (pastebinit)                     # we tell users to use it in the support channels, and it takes up minimal space
  * (htop)                           # superior top replacement that's already in main
+ * (inxi)                           # system resource details
 
 == desktop-common recommends that are nice to have ==
 
