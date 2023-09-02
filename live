@@ -10,6 +10,7 @@ Task-Seeds: live-common
 == Calamares frontend ==
 
  * calamares-settings-lubuntu
+ * polkitd-pkla			# support legacy polkit authentication rules
 
 == Bootloader ==
 
