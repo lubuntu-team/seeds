@@ -6,7 +6,6 @@ packages.
 == Hardware & Network Access ==
 
  * pptp-linux                   # client for Microsoft-compatible VPNs, needed for some ISPs
- * libatm1                      # suggested by ppp for PPP-over-ATM
  * setserial	                # needed by folks with nonstandard serial ports
 
 == Installer ==
