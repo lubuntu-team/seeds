@@ -11,7 +11,6 @@ packages.
 
 == Installer ==
 
- * lupin-support [amd64 i386]    # installer-for-windows
  * grub2                         # needed for dmraid et al
  * grub-efi [amd64]
  * grub-efi-amd64-signed [amd64]
