@@ -153,6 +153,7 @@ Task-Metapackage: lubuntu-desktop
 == LXDE / LXQt common components ==
 
  * libfm-modules
+ * lxqt-menu-data
 
 == Multimedia ==
 
