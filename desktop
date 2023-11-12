@@ -53,7 +53,7 @@ Task-Metapackage: lubuntu-desktop
  * lxqt-sudo
  * lxqt-notificationd               # Due to libnotify depends we need to explicitly seed this or GNOME gets installed
  * lxqt-policykit                   # Due to network-manager-gnome depends we need to explicitly seed this or GNOME gets installed
- * pavucontrol-qt
+ * (pavucontrol-qt)
  * xdg-desktop-portal-lxqt
  * qtxdg-tools
 
@@ -96,11 +96,11 @@ Task-Metapackage: lubuntu-desktop
 
 == Desktopish tools which we do need ==
 
- * xscreensaver
- * pinentry-qt                      # LP: #1473952 - Install the Qt version of pinentry, along with gpg-agent.
- * usb-creator-kde                  # Adding utility to make USB bootable
+ * (xscreensaver)
+ * (pinentry-qt)                      # LP: #1473952 - Install the Qt version of pinentry, along with gpg-agent.
+ * (usb-creator-kde)                  # Adding utility to make USB bootable
  * (picom)
- * obconf-qt
+ * (obconf-qt)
  * !obconf                          # Don't pull in some Openbox recommends
  * !obsession
  * !scrot
@@ -108,9 +108,9 @@ Task-Metapackage: lubuntu-desktop
  * (qlipper)
  * (qtpass)
  * qttranslations5-l10n             # Needed for proper translations support
- * xscreensaver-gl
- * xscreensaver-gl-extra
- * xscreensaver-data-extra
+ * (xscreensaver-gl)
+ * (xscreensaver-gl-extra)
+ * (xscreensaver-data-extra)
  * (xfonts-efont-unicode)
 
 == Office ==
@@ -132,20 +132,20 @@ Task-Metapackage: lubuntu-desktop
  * (plasma-discover)
  * !kde-config-updates              # Possibly dangerous in Lubuntu, causes KDE System Settings to be installed which looks so out of place
 
- * software-properties-qt           # Nice GUI to change reporsitory settings / extra drivers
+ * (software-properties-qt)           # Nice GUI to change reporsitory settings / extra drivers
  * ubuntu-release-upgrader-qt
  * lubuntu-update-notifier
 
  * network-manager
  * nm-tray                          # Simple, lightweight Qt 5 NM frontend
- * network-manager-gnome            # To use nm-connection-editor, since there is no Qt one.
+ * (network-manager-gnome)          # To use nm-connection-editor, since there is no Qt one.
 
  * bluedevil
 
 == Theming ==
 
- * papirus-icon-theme
- * arc-theme
+ * (papirus-icon-theme)
+ * (arc-theme)
 
 == Other ==
  * (ttf-ancient-fonts-symbola)      # Emoji support
@@ -162,9 +162,9 @@ Task-Metapackage: lubuntu-desktop
 == Desktopish tools which we do need ==
 
  * desktop-file-utils               # map MIME types to apps
- * xdg-user-dirs	            # to add the Desktop directory
- * gvfs-fuse 		            # for access of non gio applications to gvfs mounts
- * gvfs-backends 	            # for adding support for backends (photos, network etc ...) to gvfs
+ * xdg-user-dirs	                  # to add the Desktop directory
+ * gvfs-fuse 		                    # for access of non gio applications to gvfs mounts
+ * (gvfs-backends)     	            # for adding support for backends (photos, network etc ...) to gvfs
 
 == Desktopish tools that are nice to have ==
 
@@ -191,30 +191,30 @@ Task-Metapackage: lubuntu-desktop
 == Archive support ==
 
 # Add more type of archive support
- * xz-utils
- * zip
- * unzip                            # also used for .zip support in file-roller
+ * (xz-utils)
+ * (zip)
+ * (unzip)                          # also used for .zip support in file-roller
 
 == Printing ==
 
- * cups                             # our preferred printer management infrastructure
- * cups-bsd                         # gives us lpc, lpq, lpr, lprm
- * cups-client                      # gives us cancel, cupstestppd, lp, lpoptions, lppasswd, lpstat, cupsaddsmb, accept, lpadmin, lpinfo, lpmove
- * foomatic-db-compressed-ppds      # the foomatic printer driver database
- * cups-filters
- * openprinting-ppds                # Most common drivers we want in desktop; less common are in o-p-extra
- * printer-driver-pnm2ppa           # several ppds require this
- * ghostscript-x
- * hplip     			            # support for HP all-in-one printers
- * printer-driver-min12xxw	        # support for KonicaMinolta PagePro 1200W, 1300W printers
- * printer-driver-foo2zjs	        # support for printing to ZjStream-based printers
- * printer-driver-splix	            # support for Samsung lasers
- * printer-driver-pxljr	            # support for HP Color lasers
- * printer-driver-c2esp             # support for Kodak injket printers
- * printer-driver-ptouch            # support for Brother P-touch printers
- * printer-driver-sag-gdi           # support for Rico Aficio SPxxxx printers
- * printer-driver-brlaser           # support for some Brother laser printers
- * printer-driver-gutenprint        # Previously cups-driver-gutenprint
+ * (cups)                             # our preferred printer management infrastructure
+ * (cups-bsd)                         # gives us lpc, lpq, lpr, lprm
+ * (cups-client)                      # gives us cancel, cupstestppd, lp, lpoptions, lppasswd, lpstat, cupsaddsmb, accept, lpadmin, lpinfo, lpmove
+ * (foomatic-db-compressed-ppds)      # the foomatic printer driver database
+ * (cups-filters)
+ * (openprinting-ppds)                # Most common drivers we want in desktop; less common are in o-p-extra
+ * (printer-driver-pnm2ppa)           # several ppds require this
+ * (ghostscript-x)
+ * (hplip)     			            # support for HP all-in-one printers
+ * (printer-driver-min12xxw)	        # support for KonicaMinolta PagePro 1200W, 1300W printers
+ * (printer-driver-foo2zjs)	        # support for printing to ZjStream-based printers
+ * (printer-driver-splix)	            # support for Samsung lasers
+ * (printer-driver-pxljr)	            # support for HP Color lasers
+ * (printer-driver-c2esp)             # support for Kodak injket printers
+ * (printer-driver-ptouch)            # support for Brother P-touch printers
+ * (printer-driver-sag-gdi)           # support for Rico Aficio SPxxxx printers
+ * (printer-driver-brlaser)           # support for some Brother laser printers
+ * (printer-driver-gutenprint)        # Previously cups-driver-gutenprint
 
 == Sound ==
 
@@ -226,8 +226,8 @@ Task-Metapackage: lubuntu-desktop
 
 == Terminal tools (from desktop-common) ==
 
- * bc
- * genisoimage
+ * (bc)
+ * (genisoimage)
 
 == Networking ==
 
@@ -244,7 +244,7 @@ Task-Metapackage: lubuntu-desktop
 
 == Low level system plumbery ==
 
- * laptop-detect
+ * (laptop-detect)
  * ubuntu-drivers-common            # Make it harder to remove detection support, LP#704597
  * policykit-desktop-privileges     # passwordless disk/CPU speed/time operations for admins
  * libpam-systemd                   # logind, cross desktop compatibility
