@@ -94,6 +94,7 @@ Task-Metapackage: lubuntu-desktop
  * (partitionmanager)                 # Easy partition management tool
  * (qapt-deb-installer)               # Qt .deb installer tool
  * (curl)
+ * (aptitude)
 
 == Desktopish tools which we do need ==
 
