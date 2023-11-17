@@ -142,7 +142,7 @@ Task-Metapackage: lubuntu-desktop
  * nm-tray                          # Simple, lightweight Qt 5 NM frontend
  * (network-manager-gnome)          # To use nm-connection-editor, since there is no Qt one.
 
- * bluedevil
+ * (blueman)                        # GTK-based Bluetooth manager. TODO, replace with a Qt version
 
 == Theming ==
 
