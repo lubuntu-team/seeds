@@ -11,6 +11,7 @@ Task-Seeds: live-common
 
  * calamares-settings-lubuntu
  * polkitd-pkla			# support legacy polkit authentication rules
+ * lubuntu-installer-prompt
 
 == Bootloader ==
 
