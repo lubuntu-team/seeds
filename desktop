@@ -13,23 +13,23 @@ Task-Metapackage: lubuntu-desktop
 
 = Lubuntu core packages =
 
- * lubuntu-default-settings
- * lubuntu-artwork
- * plymouth-theme-lubuntu-logo
- * plymouth-theme-lubuntu-text
- * lubuntu-grub-theme
+ * (lubuntu-default-settings)
+ * (lubuntu-artwork)
+ * (plymouth-theme-lubuntu-logo)
+ * (plymouth-theme-lubuntu-text)
+ * (lubuntu-grub-theme)
 
 = LXQt core packages =
 
  * openbox
  * pcmanfm-qt
  * lxqt-core
- * qterminal
+ * (qterminal)
 
  * libqt5svg5                       # Force SVG support for Qt
- * oxygen-icon-theme                # Default LXQt settings need it
- * kde-style-breeze                 # Breeze Theme
- * breeze-cursor-theme              # Excellent-quality cursor theme, by KDE
+ * (oxygen-icon-theme)              # Default LXQt settings need it
+ * (kde-style-breeze)               # Breeze Theme
+ * (breeze-cursor-theme)            # Excellent-quality cursor theme, by KDE
 
 = Display manager =
 
@@ -46,7 +46,7 @@ Task-Metapackage: lubuntu-desktop
 = LXQt =
 
  * lxqt-core
- * lxqt-about
+ * (lxqt-about)
  * lxqt-admin
  * lxqt-openssh-askpass
  * lxqt-powermanagement
@@ -248,11 +248,11 @@ Task-Metapackage: lubuntu-desktop
 
 == Low level system plumbery ==
 
- * (laptop-detect)
+ * laptop-detect
  * ubuntu-drivers-common            # Make it harder to remove detection support, LP#704597
  * policykit-desktop-privileges     # passwordless disk/CPU speed/time operations for admins
  * libpam-systemd                   # logind, cross desktop compatibility
- * x11-utils
+ * (x11-utils)
  * whoopsie                         # LP: 1001630
  * python3-launchpadlib             # for apport
  * kerneloops-daemon                # watch for and allow reporting of kernel problems
@@ -271,9 +271,3 @@ Task-Metapackage: lubuntu-desktop
  * memtest86+
 
  * anacron                          # generally appropriate for desktops
-
-
-== Specific ==
-
- * apmd [armel]
- * pbbuttonsd [powerpc]
