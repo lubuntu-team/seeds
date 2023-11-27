@@ -95,6 +95,7 @@ Task-Metapackage: lubuntu-desktop
  * (qapt-deb-installer)               # Qt .deb installer tool
  * (curl)
  * (aptitude)
+ * (redshift-qt)                      # Blue light filter
 
 == Desktopish tools which we do need ==
 
