@@ -8,3 +8,6 @@ network-manager-config-connectivity-ubuntu
 network-manager-config-connectivity-debian
 #If some package ask for it, as happen on 13feb 2019 daily.
 gnome-shell
+# Explicitly disallow KDE System Settings to be installed
+kde-config-updates
+systemsettings
