@@ -131,7 +131,6 @@ Task-Metapackage: lubuntu-desktop
 == Low level system plumbery ==
 
 # Packages management
- * (muon)
  * (plasma-discover)
  * !kde-config-updates              # Possibly dangerous in Lubuntu, causes KDE System Settings to be installed which looks so out of place
 
