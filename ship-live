@@ -22,16 +22,22 @@ packages.
 
  * language-pack-gnome-zh-hans
  * language-pack-kde-zh-hans
+ * libreoffice-l10n-zh-cn
  * language-pack-zh-hans
  * language-pack-gnome-hi
  * language-pack-kde-hi
+ * libreoffice-l10n-hi
  * language-pack-hi
  * language-pack-gnome-es
  * language-pack-kde-es
+ * libreoffice-l10n-es
  * language-pack-es
  * language-pack-gnome-fr
  * language-pack-kde-fr
+ * libreoffice-l10n-fr
  * language-pack-fr
  * language-pack-gnome-ar
  * language-pack-kde-ar
+ * libreoffice-l10n-ar
  * language-pack-ar
+ * libreoffice-l10n-en-gb
