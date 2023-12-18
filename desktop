@@ -103,6 +103,7 @@ Task-Metapackage: lubuntu-desktop
  * (pinentry-qt)                      # LP: #1473952 - Install the Qt version of pinentry, along with gpg-agent.
  * (usb-creator-kde)                  # Adding utility to make USB bootable
  * (picom)
+ * (picom-conf)
  * (obconf-qt)
  * !obconf                          # Don't pull in some Openbox recommends
  * !obsession
