@@ -126,7 +126,7 @@ Task-Metapackage: lubuntu-desktop
  * (libreoffice-qt5)                #after we set SAL_USE_VCLPLUGIN=qt5 and test it we can remove precedent lo-gtk3
  * (libreoffice-style-breeze)
  * !libreoffice-gnome
- * (qpdfview)
+ * (okular)                         # Temporary placeholder for qpdfview since it doesn't support Qt 5 anymore
  * (skanlite)
 
 == Low level system plumbery ==
