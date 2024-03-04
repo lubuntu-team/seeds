@@ -16,6 +16,7 @@ packages.
  * grub-efi-ia32 [amd64 i386]    # Needed for 32-bit UEFI installs, sometimes on amd64
  * shim-signed [amd64]
  * mokutil [amd64 i386 arm64 armhf] # Needed for UEFI installs with no network
+ * realmd                       # Client for Active Directory
 
 # List source: https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers
 == Localization ==
