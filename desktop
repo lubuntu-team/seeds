@@ -116,6 +116,7 @@ Task-Metapackage: lubuntu-desktop
  * (xscreensaver-gl-extra)
  * (xscreensaver-data-extra)
  * (xfonts-efont-unicode)
+ * (orca)                           # Screen reader, for accessibility
 
 == Office ==
 
