@@ -18,6 +18,7 @@ Task-Metapackage: lubuntu-desktop
  * (plymouth-theme-lubuntu-logo)
  * (plymouth-theme-lubuntu-text)
  * (lubuntu-grub-theme)
+ * (lubuntu-snap-installation-monitor)
 
 = LXQt core packages =
 
