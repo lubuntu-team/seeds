@@ -27,7 +27,6 @@ Task-Metapackage: lubuntu-desktop
  * lxqt-core
  * (qterminal)
 
- * libqt5svg5                       # Force SVG support for Qt
  * (oxygen-icon-theme)              # Default LXQt settings need it
  * (kde-style-breeze)               # Breeze Theme
  * (breeze-cursor-theme)            # Excellent-quality cursor theme, by KDE
@@ -125,8 +124,7 @@ Task-Metapackage: lubuntu-desktop
  * (libreoffice-calc)
  * (libreoffice-impress)
  * (libreoffice-writer)
- * (libreoffice-gtk3)               #lo-kde5 save dialog doesn't add extension, lo-qt isn't ready, see bug 1812101
- * (libreoffice-qt5)                #after we set SAL_USE_VCLPLUGIN=qt5 and test it we can remove precedent lo-gtk3
+ * (libreoffice-qt6)
  * (libreoffice-style-breeze)
  * !libreoffice-gnome
  * (qpdfview)
