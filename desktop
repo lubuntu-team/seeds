@@ -241,7 +241,7 @@ Task-Metapackage: lubuntu-desktop
  * modemmanager                     # Add support for mobile modem LP: #967132
  * mobile-broadband-provider-info   # LP: #975139
  * usb-modeswitch                   # LP: #979304
- * wireless-tools
+ * iw                               # LP: #2075850
  * rfkill                           # No longer using the copy from wireless-tools (LP: #715309)
  * wpasupplicant                    # ScottJamesRemnant
  * libnss-mdns                      # IPv4 link-local DNS support
