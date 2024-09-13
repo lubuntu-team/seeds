@@ -152,6 +152,13 @@ Task-Metapackage: lubuntu-desktop
  * (papirus-icon-theme)
  * (arc-theme)
 
+== Qt5 theming compatibility ==
+
+ * libqt5xdg3
+ * libqt5xdgiconloader3
+ * lxqt-qtplugin-qt5
+ * libfm-qt5-14
+
 == Other ==
  * (ttf-ancient-fonts-symbola)      # Emoji support
 
