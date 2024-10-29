@@ -1,5 +1,6 @@
 include platform.plucky
-desktop: desktop-common
+desktop: desktop-minimal desktop-common
+desktop-minimal: desktop-common
 live: desktop live-common
 ship-live: boot live
 # make sure supported remains the last entry
