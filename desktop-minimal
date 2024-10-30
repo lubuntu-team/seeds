@@ -98,6 +98,8 @@ Task-Metapackage: lubuntu-desktop-minimal
 
  * (blueman)                        # GTK-based Bluetooth manager. TODO, replace with a Qt version
 
+ * spice-vdagent
+
 == Theming ==
 
  * (papirus-icon-theme)
@@ -137,7 +139,7 @@ Task-Metapackage: lubuntu-desktop-minimal
  * (htop)                           # superior top replacement that's already in main
  * (inxi)                           # system resource details
 
-== desktop-common recommends that are nice to have ==
+== desktop-common dependencies that are nice to have ==
 
  * (fonts-kacst-one)
  * (fonts-khmeros-core)
@@ -151,6 +153,11 @@ Task-Metapackage: lubuntu-desktop-minimal
  * (fonts-indic)
  * (fonts-liberation)
  * (fonts-noto-cjk)
+ * (fonts-dejavu-core)
+ * (fonts-noto-color-emoji)
+ * (fonts-noto-core)
+ * language-selector-common
+ * fontconfig
 
 == Archive support ==
 
@@ -179,6 +186,7 @@ Task-Metapackage: lubuntu-desktop-minimal
  * (printer-driver-sag-gdi)           # support for Rico Aficio SPxxxx printers
  * (printer-driver-brlaser)           # support for some Brother laser printers
  * (printer-driver-gutenprint)        # Previously cups-driver-gutenprint
+ * (printer-driver-m2300w)            # support for the Minolta magicolor 2300W/24000W color laser printers
 
 == Sound ==
 

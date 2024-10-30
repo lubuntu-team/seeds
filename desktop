@@ -19,6 +19,8 @@ Task-Metapackage: lubuntu-desktop
  == Snaps ==
 
  * (firefox)                        # needed to ensure www-browser is satisfied LP: #2060898
+ * (snapd)
+ * (packagekit)
  * snap:firefox
  * snap:gtk-common-themes # needed for firefox
 # * snap:firmware-updater [amd64] # Graphical firmware updater tool, see fwupd for CLI tools
