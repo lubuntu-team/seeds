@@ -43,6 +43,8 @@ Task-Metapackage: lubuntu-desktop
  * (screengrab)
  * (kcalc)
  * (qps)
+ * (qlipper)
+ * (qtpass)
  * (zsync)
  * (partitionmanager)                 # Easy partition management tool
  * (qapt-deb-installer)               # Qt .deb installer tool
