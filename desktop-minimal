@@ -2,7 +2,7 @@ Task-Per-Derivative: 1
 Task-Section: user
 Task-Description: Lubuntu Minimal Desktop
 Task-Extended-Description: This task provides the Lubuntu (Ubuntu LXQt environment).
-Task-Seeds: desktop-common
+Task-Seeds: standard
 Task-Key: lubuntu-desktop-minimal
 Task-Name: lubuntu-desktop-minimal
 Task-Metapackage: lubuntu-desktop-minimal
@@ -64,7 +64,6 @@ Task-Metapackage: lubuntu-desktop-minimal
  * (vim)                              # Useful, full-featured, terminal-based editor
  * (curl)
  * (aptitude)
- * (redshift-qt)                      # Blue light filter
 
 == Desktopish tools which we do need ==
 
