@@ -157,6 +157,10 @@ Task-Metapackage: lubuntu-desktop-minimal
  * (fonts-noto-core)
  * language-selector-common
  * fontconfig
+ * avahi-daemon
+ * bluez
+ * bluez-cups
+ * memtest86+ [amd64]
 
 == Archive support ==
 
@@ -234,7 +238,5 @@ Task-Metapackage: lubuntu-desktop-minimal
  * fwupd-signed
 
  * xkb-data
-
- * memtest86+
 
  * anacron                          # generally appropriate for desktops
