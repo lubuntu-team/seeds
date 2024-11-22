@@ -12,6 +12,7 @@ restricted modules.
  * Kernel-Stem: linux linux-image
 
  * dracut
+ * !initramfs-tools
 
 == i386 ==
 
