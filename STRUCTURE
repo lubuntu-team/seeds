@@ -1,4 +1,5 @@
 include platform.plucky
+boot:
 desktop: desktop-minimal desktop-common
 desktop-minimal: standard
 live: desktop live-common
