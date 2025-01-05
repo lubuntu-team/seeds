@@ -49,7 +49,7 @@ Task-Metapackage: lubuntu-desktop
  * (qtpass)
  * (zsync)
  * (partitionmanager)                 # Easy partition management tool
- * (qapt-deb-installer)               # Qt .deb installer tool
+# * (qapt-deb-installer)               # Qt .deb installer tool
 
 == Desktopish tools which we do need ==
 
