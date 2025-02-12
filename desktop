@@ -31,6 +31,7 @@ Task-Metapackage: lubuntu-desktop
  * (vlc)
  * (vlc-plugin-access-extra)
  * (vlc-plugin-notify)
+ * (vlc-plugin-pipewire)
  * (vlc-plugin-samba)
  * (vlc-plugin-skins2)
  * (vlc-plugin-svg)
