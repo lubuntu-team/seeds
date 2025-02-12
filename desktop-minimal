@@ -64,6 +64,7 @@ Task-Metapackage: lubuntu-desktop-minimal
  * (vim)                              # Useful, full-featured, terminal-based editor
  * (curl)
  * (aptitude)
+ * (git)
 
 == Desktopish tools which we do need ==
 
