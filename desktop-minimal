@@ -117,7 +117,6 @@ Task-Metapackage: lubuntu-desktop-minimal
 
 == LXQt common components ==
 
- * libfm-modules
  * lxqt-menu-data
 
 == Multimedia ==
