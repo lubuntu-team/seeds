@@ -22,6 +22,7 @@ Task-Metapackage: lubuntu-desktop-minimal
 
 = LXQt core packages =
 
+ * xorg
  * openbox
  * pcmanfm-qt
  * lxqt-core
