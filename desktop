@@ -58,6 +58,7 @@ Task-Metapackage: lubuntu-desktop
  * (picom)
  * (picom-conf)
  * (redshift-qt)
+ * (va-driver-all)                    # Per explicit request from the Desktop Team, LP: #2104767
 
 == Office ==
 
