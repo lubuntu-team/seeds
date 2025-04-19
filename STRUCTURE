@@ -1,4 +1,4 @@
-include platform.plucky
+include platform.questing
 desktop: desktop-minimal desktop-common
 desktop-minimal: standard
 live: desktop live-common
