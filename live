@@ -10,6 +10,7 @@ Task-Seeds: live-common
 == Calamares frontend ==
 
  * calamares-settings-lubuntu
+ * calamares        # have to specify this explicitly to keep it from being autoremoved later
  * polkitd-pkla			# support legacy polkit authentication rules
  * lubuntu-installer-prompt
 

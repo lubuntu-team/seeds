@@ -132,6 +132,7 @@ Task-Metapackage: lubuntu-desktop-minimal
  * xdg-user-dirs	                  # to add the Desktop directory
  * gvfs-fuse 		                    # for access of non gio applications to gvfs mounts
  * (gvfs-backends)     	            # for adding support for backends (photos, network etc ...) to gvfs
+ * (kdialog)                        # needed for the OEM session's "Finish OEM preparation" shortcut to work
 
 == desktop-common dependencies that are nice to have ==
 
@@ -235,3 +236,7 @@ Task-Metapackage: lubuntu-desktop-minimal
  * xkb-data
 
  * anacron                          # generally appropriate for desktops
+
+ * (cryptsetup)                     # needed for managing encrypted drives, systemd-cryptsetup isn't a total replacement
+ * (btrfs-progs)                    # btrfs is one of the filesystems we explicitly support
+ * (xfsprogs)                       # xfs is one of the filesystems we explicitly support
