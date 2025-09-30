@@ -13,6 +13,7 @@ Task-Metapackage: lubuntu-desktop-minimal
 
 = Lubuntu core packages =
 
+ * (dracut)
  * (lubuntu-default-settings)
  * (lubuntu-artwork)
  * (plymouth-theme-lubuntu-logo)
