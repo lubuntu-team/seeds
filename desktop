@@ -22,8 +22,9 @@ Task-Metapackage: lubuntu-desktop
  * (packagekit)
  * snap:firefox
  * snap:gtk-common-themes # needed for firefox
- * snap:firmware-updater=1/stable/ubuntu-25.04 [amd64] # Graphical firmware updater tool, see fwupd for CLI tools
- * snap:gnome-42-2204 # needed for firmware-updater, firefox
+ * snap:firmware-updater=1/stable/ubuntu-26.04 [amd64] # Graphical firmware updater tool, see fwupd for CLI tools
+ * snap:gnome-46-2404 # needed for firmware-updater, firefox
+ * snap:mesa-2404 # needed for firefox
 
 == Multimedia ==
 
