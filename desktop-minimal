@@ -9,7 +9,7 @@ Task-Metapackage: lubuntu-desktop-minimal
 
 == Metapackage ==
 
- * lubuntu-desktop-minimal                  # metapackage for everything here
+ * lubuntu-desktop-minimal          # metapackage for everything here
 
 = Lubuntu core packages =
 
@@ -19,7 +19,7 @@ Task-Metapackage: lubuntu-desktop-minimal
  * (plymouth-theme-lubuntu-logo)
  * (plymouth-theme-lubuntu-text)
  * (lubuntu-grub-theme)
- * !snapd                                  # No snapd by default in minimal
+ * !snapd                           # No snapd by default in minimal
 
 = LXQt core packages =
 
@@ -63,7 +63,7 @@ Task-Metapackage: lubuntu-desktop-minimal
 
  * (lxqt-archiver)
  * (screengrab)
- * (vim)                              # Useful, full-featured, terminal-based editor
+ * (vim)                            # Useful, full-featured, terminal-based editor
  * (curl)
  * (aptitude)
  * (git)
@@ -72,7 +72,7 @@ Task-Metapackage: lubuntu-desktop-minimal
 == Desktopish tools which we do need ==
 
  * (xscreensaver)
- * (pinentry-qt)                      # LP: #1473952 - Install the Qt version of pinentry, along with gpg-agent.
+ * (pinentry-qt)                    # LP: #1473952 - Install the Qt version of pinentry, along with gpg-agent.
  * (obconf-qt)
  * !obconf                          # Don't pull in some Openbox recommends
  * !obsession
@@ -90,7 +90,7 @@ Task-Metapackage: lubuntu-desktop-minimal
 # Packages management
  * !kde-config-updates              # Possibly dangerous in Lubuntu, causes KDE System Settings to be installed which looks so out of place
 
- * (software-properties-qt)           # Nice GUI to change reporsitory settings / extra drivers
+ * (software-properties-qt)         # Nice GUI to change reporsitory settings / extra drivers
  * ubuntu-release-upgrader-qt
  * lubuntu-update-notifier
 
@@ -130,9 +130,9 @@ Task-Metapackage: lubuntu-desktop-minimal
 == Desktopish tools which we do need ==
 
  * desktop-file-utils               # map MIME types to apps
- * xdg-user-dirs	                  # to add the Desktop directory
- * gvfs-fuse 		                    # for access of non gio applications to gvfs mounts
- * (gvfs-backends)     	            # for adding support for backends (photos, network etc ...) to gvfs
+ * xdg-user-dirs                    # to add the Desktop directory
+ * gvfs-fuse                        # for access of non gio applications to gvfs mounts
+ * (gvfs-backends)                  # for adding support for backends (photos, network etc ...) to gvfs
  * (kdialog)                        # needed for the OEM session's "Finish OEM preparation" shortcut to work
 
 == desktop-common dependencies that are nice to have ==
@@ -168,25 +168,25 @@ Task-Metapackage: lubuntu-desktop-minimal
 
 == Printing ==
 
- * (cups)                             # our preferred printer management infrastructure
- * (cups-bsd)                         # gives us lpc, lpq, lpr, lprm
- * (cups-client)                      # gives us cancel, cupstestppd, lp, lpoptions, lppasswd, lpstat, cupsaddsmb, accept, lpadmin, lpinfo, lpmove
- * (foomatic-db-compressed-ppds)      # the foomatic printer driver database
+ * (cups)                           # our preferred printer management infrastructure
+ * (cups-bsd)                       # gives us lpc, lpq, lpr, lprm
+ * (cups-client)                    # gives us cancel, cupstestppd, lp, lpoptions, lppasswd, lpstat, cupsaddsmb, accept, lpadmin, lpinfo, lpmove
+ * (foomatic-db-compressed-ppds)    # the foomatic printer driver database
  * (cups-filters)
- * (openprinting-ppds)                # Most common drivers we want in desktop; less common are in o-p-extra
- * (printer-driver-pnm2ppa)           # several ppds require this
+ * (openprinting-ppds)              # Most common drivers we want in desktop; less common are in o-p-extra
+ * (printer-driver-pnm2ppa)         # several ppds require this
  * (ghostscript-x)
- * (hplip)     			            # support for HP all-in-one printers
- * (printer-driver-min12xxw)	        # support for KonicaMinolta PagePro 1200W, 1300W printers
- * (printer-driver-foo2zjs)	        # support for printing to ZjStream-based printers
- * (printer-driver-splix)	            # support for Samsung lasers
- * (printer-driver-pxljr)	            # support for HP Color lasers
- * (printer-driver-c2esp)             # support for Kodak injket printers
- * (printer-driver-ptouch)            # support for Brother P-touch printers
- * (printer-driver-sag-gdi)           # support for Rico Aficio SPxxxx printers
- * (printer-driver-brlaser)           # support for some Brother laser printers
- * (printer-driver-gutenprint)        # Previously cups-driver-gutenprint
- * (printer-driver-m2300w)            # support for the Minolta magicolor 2300W/24000W color laser printers
+ * (hplip)                          # support for HP all-in-one printers
+ * (printer-driver-min12xxw)        # support for KonicaMinolta PagePro 1200W, 1300W printers
+ * (printer-driver-foo2zjs)         # support for printing to ZjStream-based printers
+ * (printer-driver-splix)           # support for Samsung lasers
+ * (printer-driver-pxljr)           # support for HP Color lasers
+ * (printer-driver-c2esp)           # support for Kodak injket printers
+ * (printer-driver-ptouch)          # support for Brother P-touch printers
+ * (printer-driver-sag-gdi)         # support for Rico Aficio SPxxxx printers
+ * (printer-driver-brlaser)         # support for some Brother laser printers
+ * (printer-driver-gutenprint)      # Previously cups-driver-gutenprint
+ * (printer-driver-m2300w)          # support for the Minolta magicolor 2300W/24000W color laser printers
 
 == Sound ==
 
