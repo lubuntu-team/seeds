@@ -115,9 +115,6 @@ Task-Metapackage: lubuntu-desktop-minimal
  * lxqt-qtplugin-qt5
  * libfm-qt5-14
 
-== Other ==
- * (ttf-ancient-fonts-symbola)      # Emoji support
-
 == LXQt common components ==
 
  * lxqt-menu-data
