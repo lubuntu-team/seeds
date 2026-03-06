@@ -40,7 +40,7 @@ Task-Metapackage: lubuntu-desktop
 
 == Accessories ==
 
- * (2048-qt)
+# * (2048-qt) # bitrotten, not suitable for an LTS release
  * (featherpad)
  * (noblenote)
  * (screengrab)
