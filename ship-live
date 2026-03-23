@@ -18,7 +18,6 @@ packages.
  * mokutil [amd64 i386 arm64 armhf] # Needed for UEFI installs with no network
  * realmd                       # Client for Active Directory
  * calamares                    # Needed for OEM setup
- * util-linux-extra             # Calamares dependency that doesn't get picked up for some reason
 
 # List source: https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers
 == Localization ==

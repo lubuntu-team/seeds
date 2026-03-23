@@ -238,3 +238,5 @@ Task-Metapackage: lubuntu-desktop-minimal
  * (cryptsetup)                     # needed for managing encrypted drives, systemd-cryptsetup isn't a total replacement
  * (btrfs-progs)                    # btrfs is one of the filesystems we explicitly support
  * (xfsprogs)                       # xfs is one of the filesystems we explicitly support
+
+ * util-linux-extra                 # Calamares dependency needed for OEM installations to work, adding this to ship-live silently fails
