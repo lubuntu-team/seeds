@@ -1,4 +1,4 @@
-include platform.resolute
+include platform.stonking
 desktop: desktop-minimal desktop-common
 desktop-minimal: standard
 live: desktop live-common
